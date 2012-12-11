@@ -1,0 +1,13 @@
+This is a demo about how to use QQ Connect's APIs, these APIs includes:
+1. OAuth 2.0 and saving the access token & openid
+2. Send tweet to Tencent Weibo
+3. Send tweet with image to Tencent Weibo
+4. Get my Tencent Weibo follower list
+5. Get my Tencent Weibo following list
+6. Add Tencent Weibo follower
+7. Remove Tencent Weibo follower
+8. Get Qzone profile
+
+I will keep implementing the rest of QQ Connect's API, for a full list of these API, please visit: http://wiki.opensns.qq.com/wiki/%E3%80%90QQ%E7%99%BB%E5%BD%95%E3%80%91API%E6%96%87%E6%A1%A3
+
+In this version, I use the API directly without QQConnect SDK. I will replace underlying code with QQCOnnect SDK gradually.

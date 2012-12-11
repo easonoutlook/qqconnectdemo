@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B04AAE0B166DA744005A988C /* QCDSendTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04AAE0A166DA744005A988C /* QCDSendTweetViewController.m */; };
+		B04AAE0D166DD8C4005A988C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04AAE0C166DD8C4005A988C /* CoreLocation.framework */; };
+		B04AAE10166DEB2F005A988C /* QCDSendTweetWithImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04AAE0F166DEB2E005A988C /* QCDSendTweetWithImageViewController.m */; };
+		B04AAE13166DF06F005A988C /* QCDAPIListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04AAE12166DF06F005A988C /* QCDAPIListViewController.m */; };
+		B04AAE15166DF80D005A988C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04AAE14166DF80D005A988C /* MobileCoreServices.framework */; };
+		B0BDD84B16703837002A1E74 /* QCDManageFollowingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BDD84A16703837002A1E74 /* QCDManageFollowingViewController.m */; };
+		B0BDD84F167046F2002A1E74 /* QCDFollowListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BDD84E167046F2002A1E74 /* QCDFollowListViewController.m */; };
+		B0BDD85216707D68002A1E74 /* NSStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BDD85116707D68002A1E74 /* NSStringUtils.m */; };
+		B0BDD855167086A2002A1E74 /* QCDFollowListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BDD854167086A2002A1E74 /* QCDFollowListCell.m */; };
 		B0BE43861668588F0013F468 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BE43851668588F0013F468 /* UIKit.framework */; };
 		B0BE43881668588F0013F468 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BE43871668588F0013F468 /* Foundation.framework */; };
 		B0BE438A1668588F0013F468 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BE43891668588F0013F468 /* CoreGraphics.framework */; };
@@ -19,14 +28,24 @@
 		B0BE439E1668588F0013F468 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BE439D1668588F0013F468 /* Default-568h@2x.png */; };
 		B0BE43A11668588F0013F468 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BE439F1668588F0013F468 /* MainStoryboard.storyboard */; };
 		B0BE43A41668588F0013F468 /* ConnectDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0BE43A21668588F0013F468 /* ConnectDemo.xcdatamodeld */; };
-		B0BE43A71668588F0013F468 /* QCDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE43A61668588F0013F468 /* QCDMasterViewController.m */; };
-		B0BE43AA1668588F0013F468 /* QCDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE43A91668588F0013F468 /* QCDDetailViewController.m */; };
 		B0BE43B21668588F0013F468 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BE43B11668588F0013F468 /* SenTestingKit.framework */; };
 		B0BE43B31668588F0013F468 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BE43851668588F0013F468 /* UIKit.framework */; };
 		B0BE43B41668588F0013F468 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BE43871668588F0013F468 /* Foundation.framework */; };
 		B0BE43B51668588F0013F468 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BE438B1668588F0013F468 /* CoreData.framework */; };
 		B0BE43BD1668588F0013F468 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0BE43BB1668588F0013F468 /* InfoPlist.strings */; };
 		B0BE43C01668588F0013F468 /* ConnectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE43BF1668588F0013F468 /* ConnectDemoTests.m */; };
+		B0BE43D416688B690013F468 /* QCDOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE43D316688B690013F468 /* QCDOAuthViewController.m */; };
+		B0BE440B16688C450013F468 /* StoredAuthInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE440A16688C450013F468 /* StoredAuthInfo.m */; };
+		B0BE440E1668936E0013F468 /* QCDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE440D1668936E0013F468 /* QCDHomeViewController.m */; };
+		B0BE44101668A7ED0013F468 /* Mcdonalds-shout-loudy-57.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BE440F1668A7ED0013F468 /* Mcdonalds-shout-loudy-57.png */; };
+		B0BE44121668A7EF0013F468 /* Mcdonalds-shout-loudy-114.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BE44111668A7EF0013F468 /* Mcdonalds-shout-loudy-114.png */; };
+		B0BE44191668B1570013F468 /* QCDQzoneProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE44181668B1560013F468 /* QCDQzoneProfileViewController.m */; };
+		B0BE441C1668B3320013F468 /* QCDCoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE441B1668B3320013F468 /* QCDCoreDataUtil.m */; };
+		B0BE441F1668B7230013F468 /* QCDAppConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BE441E1668B7230013F468 /* QCDAppConst.m */; };
+		B0C4ED1C166C851C000BDF67 /* QCDConnectApi.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C4ED1B166C851C000BDF67 /* QCDConnectApi.m */; };
+		B0C4ED23166C9096000BDF67 /* UIImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C4ED22166C9096000BDF67 /* UIImageLoader.m */; };
+		B0C4ED2C166C9AB2000BDF67 /* UILoadingAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C4ED2B166C9AB2000BDF67 /* UILoadingAlertView.m */; };
+		B0C4ED2D166C9AB2000BDF67 /* UILoadingAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C4ED2B166C9AB2000BDF67 /* UILoadingAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +59,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B04AAE09166DA744005A988C /* QCDSendTweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDSendTweetViewController.h; sourceTree = "<group>"; };
+		B04AAE0A166DA744005A988C /* QCDSendTweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDSendTweetViewController.m; sourceTree = "<group>"; };
+		B04AAE0C166DD8C4005A988C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B04AAE0E166DEB2E005A988C /* QCDSendTweetWithImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDSendTweetWithImageViewController.h; sourceTree = "<group>"; };
+		B04AAE0F166DEB2E005A988C /* QCDSendTweetWithImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDSendTweetWithImageViewController.m; sourceTree = "<group>"; };
+		B04AAE11166DF06F005A988C /* QCDAPIListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDAPIListViewController.h; sourceTree = "<group>"; };
+		B04AAE12166DF06F005A988C /* QCDAPIListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDAPIListViewController.m; sourceTree = "<group>"; };
+		B04AAE14166DF80D005A988C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B0BDD84916703837002A1E74 /* QCDManageFollowingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDManageFollowingViewController.h; sourceTree = "<group>"; };
+		B0BDD84A16703837002A1E74 /* QCDManageFollowingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDManageFollowingViewController.m; sourceTree = "<group>"; };
+		B0BDD84D167046F2002A1E74 /* QCDFollowListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDFollowListViewController.h; sourceTree = "<group>"; };
+		B0BDD84E167046F2002A1E74 /* QCDFollowListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDFollowListViewController.m; sourceTree = "<group>"; };
+		B0BDD85016707D68002A1E74 /* NSStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringUtils.h; sourceTree = "<group>"; };
+		B0BDD85116707D68002A1E74 /* NSStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringUtils.m; sourceTree = "<group>"; };
+		B0BDD853167086A2002A1E74 /* QCDFollowListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDFollowListCell.h; sourceTree = "<group>"; };
+		B0BDD854167086A2002A1E74 /* QCDFollowListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDFollowListCell.m; sourceTree = "<group>"; };
 		B0BE43811668588F0013F468 /* ConnectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BE43851668588F0013F468 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B0BE43871668588F0013F468 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,16 +91,32 @@
 		B0BE439D1668588F0013F468 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B0BE43A01668588F0013F468 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B0BE43A31668588F0013F468 /* ConnectDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConnectDemo.xcdatamodel; sourceTree = "<group>"; };
-		B0BE43A51668588F0013F468 /* QCDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCDMasterViewController.h; sourceTree = "<group>"; };
-		B0BE43A61668588F0013F468 /* QCDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCDMasterViewController.m; sourceTree = "<group>"; };
-		B0BE43A81668588F0013F468 /* QCDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCDDetailViewController.h; sourceTree = "<group>"; };
-		B0BE43A91668588F0013F468 /* QCDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCDDetailViewController.m; sourceTree = "<group>"; };
 		B0BE43B01668588F0013F468 /* ConnectDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BE43B11668588F0013F468 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B0BE43BA1668588F0013F468 /* ConnectDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConnectDemoTests-Info.plist"; sourceTree = "<group>"; };
 		B0BE43BC1668588F0013F468 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0BE43BE1668588F0013F468 /* ConnectDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectDemoTests.h; sourceTree = "<group>"; };
 		B0BE43BF1668588F0013F468 /* ConnectDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectDemoTests.m; sourceTree = "<group>"; };
+		B0BE43D216688B690013F468 /* QCDOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDOAuthViewController.h; sourceTree = "<group>"; };
+		B0BE43D316688B690013F468 /* QCDOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDOAuthViewController.m; sourceTree = "<group>"; };
+		B0BE440916688C450013F468 /* StoredAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoredAuthInfo.h; sourceTree = "<group>"; };
+		B0BE440A16688C450013F468 /* StoredAuthInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoredAuthInfo.m; sourceTree = "<group>"; };
+		B0BE440C1668936E0013F468 /* QCDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDHomeViewController.h; sourceTree = "<group>"; };
+		B0BE440D1668936E0013F468 /* QCDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDHomeViewController.m; sourceTree = "<group>"; };
+		B0BE440F1668A7ED0013F468 /* Mcdonalds-shout-loudy-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mcdonalds-shout-loudy-57.png"; path = "../Mcdonalds-shout-loudy-57.png"; sourceTree = "<group>"; };
+		B0BE44111668A7EF0013F468 /* Mcdonalds-shout-loudy-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mcdonalds-shout-loudy-114.png"; path = "../Mcdonalds-shout-loudy-114.png"; sourceTree = "<group>"; };
+		B0BE44171668B1560013F468 /* QCDQzoneProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDQzoneProfileViewController.h; sourceTree = "<group>"; };
+		B0BE44181668B1560013F468 /* QCDQzoneProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDQzoneProfileViewController.m; sourceTree = "<group>"; };
+		B0BE441A1668B3320013F468 /* QCDCoreDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDCoreDataUtil.h; sourceTree = "<group>"; };
+		B0BE441B1668B3320013F468 /* QCDCoreDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDCoreDataUtil.m; sourceTree = "<group>"; };
+		B0BE441D1668B7230013F468 /* QCDAppConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDAppConst.h; sourceTree = "<group>"; };
+		B0BE441E1668B7230013F468 /* QCDAppConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDAppConst.m; sourceTree = "<group>"; };
+		B0C4ED1A166C851C000BDF67 /* QCDConnectApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDConnectApi.h; sourceTree = "<group>"; };
+		B0C4ED1B166C851C000BDF67 /* QCDConnectApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDConnectApi.m; sourceTree = "<group>"; };
+		B0C4ED21166C9096000BDF67 /* UIImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageLoader.h; sourceTree = "<group>"; };
+		B0C4ED22166C9096000BDF67 /* UIImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageLoader.m; sourceTree = "<group>"; };
+		B0C4ED2A166C9AB2000BDF67 /* UILoadingAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILoadingAlertView.h; sourceTree = "<group>"; };
+		B0C4ED2B166C9AB2000BDF67 /* UILoadingAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILoadingAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04AAE15166DF80D005A988C /* MobileCoreServices.framework in Frameworks */,
+				B04AAE0D166DD8C4005A988C /* CoreLocation.framework in Frameworks */,
 				B0BE43861668588F0013F468 /* UIKit.framework in Frameworks */,
 				B0BE43881668588F0013F468 /* Foundation.framework in Frameworks */,
 				B0BE438A1668588F0013F468 /* CoreGraphics.framework in Frameworks */,
@@ -116,6 +169,8 @@
 		B0BE43841668588F0013F468 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B04AAE14166DF80D005A988C /* MobileCoreServices.framework */,
+				B04AAE0C166DD8C4005A988C /* CoreLocation.framework */,
 				B0BE43851668588F0013F468 /* UIKit.framework */,
 				B0BE43871668588F0013F468 /* Foundation.framework */,
 				B0BE43891668588F0013F468 /* CoreGraphics.framework */,
@@ -128,15 +183,17 @@
 		B0BE438D1668588F0013F468 /* ConnectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B0BE438E1668588F0013F468 /* Supporting Files */,
+				B0BE44131668A7F80013F468 /* Resources */,
+				B0BE440816688BF20013F468 /* Libraries */,
+				B0C4ED20166C8F50000BDF67 /* Utils */,
+				B0BE43CE1668865D0013F468 /* Model */,
+				B0C4ED1E166C8E51000BDF67 /* ViewControllers */,
+				B0BE439F1668588F0013F468 /* MainStoryboard.storyboard */,
+				B0BE441D1668B7230013F468 /* QCDAppConst.h */,
+				B0BE441E1668B7230013F468 /* QCDAppConst.m */,
 				B0BE43961668588F0013F468 /* QCDAppDelegate.h */,
 				B0BE43971668588F0013F468 /* QCDAppDelegate.m */,
-				B0BE439F1668588F0013F468 /* MainStoryboard.storyboard */,
-				B0BE43A51668588F0013F468 /* QCDMasterViewController.h */,
-				B0BE43A61668588F0013F468 /* QCDMasterViewController.m */,
-				B0BE43A81668588F0013F468 /* QCDDetailViewController.h */,
-				B0BE43A91668588F0013F468 /* QCDDetailViewController.m */,
-				B0BE43A21668588F0013F468 /* ConnectDemo.xcdatamodeld */,
-				B0BE438E1668588F0013F468 /* Supporting Files */,
 			);
 			path = ConnectDemo;
 			sourceTree = "<group>";
@@ -172,6 +229,74 @@
 				B0BE43BB1668588F0013F468 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0BE43CE1668865D0013F468 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE43A21668588F0013F468 /* ConnectDemo.xcdatamodeld */,
+				B0BE440916688C450013F468 /* StoredAuthInfo.h */,
+				B0BE440A16688C450013F468 /* StoredAuthInfo.m */,
+				B0BE441A1668B3320013F468 /* QCDCoreDataUtil.h */,
+				B0BE441B1668B3320013F468 /* QCDCoreDataUtil.m */,
+				B0C4ED1A166C851C000BDF67 /* QCDConnectApi.h */,
+				B0C4ED1B166C851C000BDF67 /* QCDConnectApi.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B0BE440816688BF20013F468 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B0BE44131668A7F80013F468 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE44111668A7EF0013F468 /* Mcdonalds-shout-loudy-114.png */,
+				B0BE440F1668A7ED0013F468 /* Mcdonalds-shout-loudy-57.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B0C4ED1E166C8E51000BDF67 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE440C1668936E0013F468 /* QCDHomeViewController.h */,
+				B0BE440D1668936E0013F468 /* QCDHomeViewController.m */,
+				B0BE43D216688B690013F468 /* QCDOAuthViewController.h */,
+				B0BE43D316688B690013F468 /* QCDOAuthViewController.m */,
+				B04AAE11166DF06F005A988C /* QCDAPIListViewController.h */,
+				B04AAE12166DF06F005A988C /* QCDAPIListViewController.m */,
+				B0BE44171668B1560013F468 /* QCDQzoneProfileViewController.h */,
+				B0BE44181668B1560013F468 /* QCDQzoneProfileViewController.m */,
+				B04AAE09166DA744005A988C /* QCDSendTweetViewController.h */,
+				B04AAE0A166DA744005A988C /* QCDSendTweetViewController.m */,
+				B04AAE0E166DEB2E005A988C /* QCDSendTweetWithImageViewController.h */,
+				B04AAE0F166DEB2E005A988C /* QCDSendTweetWithImageViewController.m */,
+				B0BDD84916703837002A1E74 /* QCDManageFollowingViewController.h */,
+				B0BDD84A16703837002A1E74 /* QCDManageFollowingViewController.m */,
+				B0BDD84D167046F2002A1E74 /* QCDFollowListViewController.h */,
+				B0BDD84E167046F2002A1E74 /* QCDFollowListViewController.m */,
+				B0BDD853167086A2002A1E74 /* QCDFollowListCell.h */,
+				B0BDD854167086A2002A1E74 /* QCDFollowListCell.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B0C4ED20166C8F50000BDF67 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B0C4ED2A166C9AB2000BDF67 /* UILoadingAlertView.h */,
+				B0C4ED2B166C9AB2000BDF67 /* UILoadingAlertView.m */,
+				B0C4ED21166C9096000BDF67 /* UIImageLoader.h */,
+				B0C4ED22166C9096000BDF67 /* UIImageLoader.m */,
+				B0BDD85016707D68002A1E74 /* NSStringUtils.h */,
+				B0BDD85116707D68002A1E74 /* NSStringUtils.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +376,8 @@
 				B0BE439C1668588F0013F468 /* Default@2x.png in Resources */,
 				B0BE439E1668588F0013F468 /* Default-568h@2x.png in Resources */,
 				B0BE43A11668588F0013F468 /* MainStoryboard.storyboard in Resources */,
+				B0BE44101668A7ED0013F468 /* Mcdonalds-shout-loudy-57.png in Resources */,
+				B0BE44121668A7EF0013F468 /* Mcdonalds-shout-loudy-114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,8 +415,22 @@
 				B0BE43941668588F0013F468 /* main.m in Sources */,
 				B0BE43981668588F0013F468 /* QCDAppDelegate.m in Sources */,
 				B0BE43A41668588F0013F468 /* ConnectDemo.xcdatamodeld in Sources */,
-				B0BE43A71668588F0013F468 /* QCDMasterViewController.m in Sources */,
-				B0BE43AA1668588F0013F468 /* QCDDetailViewController.m in Sources */,
+				B0BE43D416688B690013F468 /* QCDOAuthViewController.m in Sources */,
+				B0BE440B16688C450013F468 /* StoredAuthInfo.m in Sources */,
+				B0BE440E1668936E0013F468 /* QCDHomeViewController.m in Sources */,
+				B0BE44191668B1570013F468 /* QCDQzoneProfileViewController.m in Sources */,
+				B0BE441C1668B3320013F468 /* QCDCoreDataUtil.m in Sources */,
+				B0BE441F1668B7230013F468 /* QCDAppConst.m in Sources */,
+				B0C4ED1C166C851C000BDF67 /* QCDConnectApi.m in Sources */,
+				B0C4ED23166C9096000BDF67 /* UIImageLoader.m in Sources */,
+				B0C4ED2C166C9AB2000BDF67 /* UILoadingAlertView.m in Sources */,
+				B04AAE0B166DA744005A988C /* QCDSendTweetViewController.m in Sources */,
+				B04AAE10166DEB2F005A988C /* QCDSendTweetWithImageViewController.m in Sources */,
+				B04AAE13166DF06F005A988C /* QCDAPIListViewController.m in Sources */,
+				B0BDD84B16703837002A1E74 /* QCDManageFollowingViewController.m in Sources */,
+				B0BDD84F167046F2002A1E74 /* QCDFollowListViewController.m in Sources */,
+				B0BDD85216707D68002A1E74 /* NSStringUtils.m in Sources */,
+				B0BDD855167086A2002A1E74 /* QCDFollowListCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0BE43C01668588F0013F468 /* ConnectDemoTests.m in Sources */,
+				B0C4ED2D166C9AB2000BDF67 /* UILoadingAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +605,7 @@
 				B0BE43C51668588F0013F468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0BE43C61668588F0013F468 /* Build configuration list for PBXNativeTarget "ConnectDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +614,7 @@
 				B0BE43C81668588F0013F468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

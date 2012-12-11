@@ -7,8 +7,7 @@
 //
 
 #import "QCDAppDelegate.h"
-
-#import "QCDMasterViewController.h"
+#import "QCDAppConst.h"
 
 @implementation QCDAppDelegate
 
@@ -18,11 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-	UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-	QCDMasterViewController *controller = (QCDMasterViewController *)navigationController.topViewController;
-	controller.managedObjectContext = self.managedObjectContext;
-    return YES;
+	return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
